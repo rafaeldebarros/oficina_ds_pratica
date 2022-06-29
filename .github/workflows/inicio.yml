@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
     branches: [main]
- 
- name: 01-inicio
+
+name: 01-inicio
  
  jobs:
   write-message:
