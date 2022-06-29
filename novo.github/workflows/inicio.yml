@@ -6,8 +6,8 @@ on:
  
  jobs:
   write-message:
-  runs-on: ubuntu-latest
-  steps:
-    - name: print-message
-      run: echo "Hello"
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-message
+        run: echo "Hello"
  
