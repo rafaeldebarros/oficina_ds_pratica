@@ -5,9 +5,9 @@ on:
 name: 01-inicio
 
 jobs:
- write-message:
-   runs-on: ubuntu-latest
-   steps:
-     - name: print-message
-       run: echo "Hello"
+  write-message:
+    runs-on: ubuntu-latest
+    steps:
+       - name: print-message
+         run: echo "Hello"
  
